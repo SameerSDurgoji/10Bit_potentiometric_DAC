@@ -23,26 +23,119 @@ The tools used for these simulations are:
 The schematics for a switch circuit and a 2 bit DAC were designed in eSim. As the analog input voltage was 3.3V, the vdd and vref was set to 3.3V. For the voltage divider circuit, a series of 4 resistors of 250ohm each were used. The model name of the PMOSFET used was sky130_fd_pr__pfet_g5v0d10v5. The model name of the NMOSFET used was sky130_fd_pr__nfet_03v3_nvt. To include the model files of these mosfets, a new spice file was created where the sky130_fd_pr__nfet_03v3_nvt__mismatch.corner.spice, sky130_fd_pr__nfet_03v3_nvt__tt.corner.spice, sky130_fd_pr__pfet_g5v0d10v5__mismatch.corner.spice, sky130_fd_pr__pfet_g5v0d10v5__tt.corner.spice, all.spice files were included.
 This custom1.spice file should be placed in models folder in sky130_fd_pr.
 
-For the 2 bit DAC, switch circuit was included as a subcircuit. After creating the schematics, the spice netlist was extracted. The necessary model files of sky130 tt transistors were included in the netlist and transient analysis was performed. The screenshots of the schematic are as shown below:
+## Switch:
+The switch circuit mentioned above was designed using eSim. The screenshots of the schematic are as shown below:
 
 ![switch](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/switch_eSim.png)
 
 
-![2bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/2bitDAC.png)
-
-The subcircuit of the switch could not be properly included in the 2 bit DAC circuit. So, a spice netlist was newly created for the 2bit DAC and the transient analysis was performed. The result of transient analysis of the switch is shown below:
+The result of transient analysis of the switch is shown below:
 
 ![switch op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/switch_output.png)
 
 The file switchfinal.spice was used.
 Here, in the spice file, the higher reference voltage was set to 2.5V and the lower reference voltage was set to 2.2V just for the purpose of verifying the circuit. Here it can be observed that when the digital input for the switch is high (1.8V), the higher reference voltage appears at the output; when the digital input for the switch is low(0V), the lower reference voltage appears at the output. So, it was concluded that the switch circuit is working properly.
 
+## 2 bit DAC:
+For the 2 bit DAC, switch circuit was included as a subcircuit. After creating the schematics, the spice netlist was extracted. The necessary model files of sky130 tt transistors were included in the netlist and transient analysis was performed.
+
+The schematic of 2 bit DAC is as shown below: 
+
+![2bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/2bitDAC.png)
+
 The result of the transient analysis of the 2bit DAC is shown below:
 
 ![2bit dac op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Screenshot_1.png)
 
 The spice file 2bitDAC.spice was used.
-The two bit digital inputs were given as 11, 10, 01 and 00. It can be observed that when the inputs are 1 1, 2.47V appears at the output. When the inputs are 1 0, 1.57 V appears at the output. Similarly, for the inputs 0 1 and 0 0, 0.76V and 0 V appear at output respectively. Thus, the 2 bit digital input is converted to corresponding analog values with reference voltage of 3.3 V.
+The two bit digital inputs were given as 11, 10, 01 and 00. It can be observed that when the inputs are 1 1, 2.47V appears at the output. When the inputs are 1 0, 1.57 V appears at the output. Similarly, for the inputs 0 1 and 0 0, 0.76V and 0 V appear at output respectively. Thus, the 2 bit digital input is converted to corresponding analog values with reference voltage of 3.3 V. 
+
+## 3 bit DAC:
+For the 3 bit DAC, the subcircuits 2bit_DAC.sub and switch.sub were used. The schematic is as shown below:
+
+
+
+The result of transient analysis of 3 bit DAC is shown below:
+
+
+
+Here, there are 3 digital input bits and hence 8 steps in the analog output.
+
+The subcircuit of 3bit DAC was created which included the 2bit DAC and switch subcircuits.
+
+## 4 bit DAC:
+For the 4 bit DAC, the subcircuits 3bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
+
+
+
+The result of the transient analysis of the circuit is shown below:
+
+
+Here, there are 4 digital input bits and hence 16 steps in the analog output.
+
+The subcircuit of 4 bit DAC was created which included 3bit DAC and switch.
+
+## 5 bit DAC:
+For the 5 bit DAC, the subcircuits 4bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
+
+
+
+The result of the transient analysis of the circuit is shown below:
+
+
+Here, there are 5 digital input bits and hence 32 steps in the analog output.
+
+The subcircuit of 5 bit DAC was created which included 4bit DAC and switch.
+
+## 6 bit DAC:
+For the 6 bit DAC, the subcircuits 5bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
+
+
+
+The result of the transient analysis of the circuit is shown below:
+
+
+Here, there are 6 digital input bits and hence 64 steps in the analog output.
+
+The subcircuit of 6 bit DAC was created which included 5bit DAC and switch.
+
+## 7 bit DAC:
+For the 7 bit DAC, the subcircuits 6bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
+
+
+
+The result of the transient analysis of the circuit is shown below:
+
+
+Here, there are 7 digital input bits and hence 128 steps in the analog output.
+
+The subcircuit of 7 bit DAC was created which included 6bit DAC and switch.
+
+## 8 bit DAC:
+For the 8 bit DAC, the subcircuits 7bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
+
+
+The transient response of this schematic could not be obtained. The ngspice session got killed.
+
+However, the subcircuit of 8 bit DAC was created which included 7bit DAC and switch.
+
+## 9 bit DAC:
+For the 9 bit DAC, the subcircuits 8bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
+
+
+The transient response of this schematic could not be obtained. The ngspice session got killed.
+
+However, the subcircuit of 9 bit DAC was created which included 8bit DAC and switch.
+
+## 10 bit DAC:
+For the 10 bit DAC, the subcircuits 9bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
+
+
+The transient response of this schematic could not be obtained. The ngspice session got killed.
+
+# Observations:
+
+It was observed that with increase in the resolution of DAC, the number of steps were increased, the stepsize reduced leading to a smoother step waveform.
 
 # Further Work:
 
