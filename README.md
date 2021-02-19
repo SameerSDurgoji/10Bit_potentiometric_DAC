@@ -120,7 +120,9 @@ For the 8 bit DAC, the subcircuits 7bit_DAC.sub and switch.sub were used. The eS
 
 ![8bitDAC](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/8bitDAC.png)
 
-The transient response of this schematic could not be obtained. The ngspice session got killed.
+Here, there are 8 digital input bits and hence 256 steps in the analog output.
+
+![8bit dac op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/8bitDAC_op.png)
 
 However, the subcircuit of 8 bit DAC was created which included 7bit DAC and switch.
 
@@ -146,4 +148,4 @@ It was observed that with increase in the resolution of DAC, the number of steps
 
 # Further Work:
 
-Further work would be to obtain the proper prelayout simulations of 8,9 and 10 bit DACs and then create the layout of all the DACs and use them obtain a 10 bit DAC. 
+Further work would be to obtain the proper prelayout simulations of 9 and 10 bit DACs and then create the layout of all the DACs and use them obtain a 10 bit DAC. 
