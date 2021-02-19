@@ -124,7 +124,7 @@ Here, there are 8 digital input bits and hence 256 steps in the analog output.
 
 ![8bit dac op](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/DAC_Prelayout/Screenshots/8bitDAC_op.png)
 
-However, the subcircuit of 8 bit DAC was created which included 7bit DAC and switch.
+The subcircuit of 8 bit DAC was created which included 7bit DAC and switch.
 
 ## 9 bit DAC:
 For the 9 bit DAC, the subcircuits 8bit_DAC.sub and switch.sub were used. The eSim schematic is as shown below:
