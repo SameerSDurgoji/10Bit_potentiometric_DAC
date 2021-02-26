@@ -185,3 +185,13 @@ The simulations of higher bit DACs consume more time.
 # Further Work
 
 Further work would be to create the layout of all the DACs and use them obtain a 10 bit DAC using the sky130 tech file. 
+
+
+# Contact Information:
+
+Sameer S Durgoji , B.Tech Electronics and Communication Engineering, National Institute of Technology Karnataka, [sameerdurgoji@gmail.com](sameerdurgoji@gmail.com)
+
+# Acknowledgements:
+
+ * Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+ * Praharsha Mahurkar, TA at VSD Corp. Pvt. Ltd.
