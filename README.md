@@ -38,6 +38,18 @@ The block diagram of the required 10bit DAC is as shown below:
 
 ![DAC design](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/DACdesign.png)
 
+
+Parameter|	Description	            |Min |	Type	|Max      	|Unit  |	Condition
+---------|-------------------------|----|------|----------|------|------------
+RL	      |Load resistance	         |50		|      |          |	Mohm	|T=-40 to 85C
+CL	      |Load capacitance		       |    |      |	1	       |pF  	 |T=-40 to 85C
+VDDA     |Analog supply		          |    | 3.3		|          |V     |T=-40 to 85C
+VDD	     |Digital supply voltage		 |    |1.8		 |          |V   	 |T=-40 to 85C
+VREFH	   |Reference voltage high			|    |      |3.3      	|V	    |T=-40 to 85C
+VREFL	   |Reference voltage low	   |0			|      |          |V 	   |T=-40 to 85C
+RES	     |Resolution		             |    |10		  |          |bit	  |T=27C
+VFS	     |Full Scale Voltage	      |0		 |      |3.291627	 |V	    |T=27C
+
 # Pre Layout Simulations
 
 The tools used for these simulations are:
