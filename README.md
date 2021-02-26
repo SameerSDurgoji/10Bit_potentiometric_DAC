@@ -191,8 +191,9 @@ $ sudo apt install -y git
 $ git clone https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC.git
 ```
 3. The subcircuits of lower DACs is present in the subcircuits folder. Copy its contents to the eSim subcircuit library (C:\FOSSEE\eSim\library\SubcircuitLibrary) in order to use the subcircuits in the schematic.
-4. The spice netlists with all the required subcircuits are present in DAC_Prelayout folder.  
-5. To run the schematic, run the command:
+4. The sky130_fd_pr can be downloaded by following this [link](https://github.com/Deepak42074/vsdsram_sky130#installing-and-cloning-instructions).
+5. The spice netlists with all the required subcircuits are present in DAC_Prelayout folder.  
+6. To run the schematic, run the command:
 ```
 $ ngspice <nbit_DAC1.cir.out>
 ```
