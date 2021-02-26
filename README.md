@@ -146,13 +146,19 @@ The transient response of this schematic could not be obtained. The ngspice sess
 
 1. Install the eSim tool using this website.
 2. Clone this repository using the commands:
-'''  $ sudo apt install -y git'''
+'''
+$ sudo apt install -y git
+'''
 
-'''$ git clone https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC.git'''
+'''
+$ git clone https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC.git
+'''
 3. The subcircuits of lower DACs is present in the subcircuits folder. Copy its contents to the eSim subcircuit library (C:\FOSSEE\eSim\library\SubcircuitLibrary) in order to use the subcircuits in the schematic.
 4. The spice netlists with all the required subcircuits are present in DAC_Prelayout folder.  
 5. To run the schematic, run the command:
-'''$ ngspice <nbit_DAC1.cir.out>'''
+'''
+$ ngspice <nbit_DAC1.cir.out>
+'''
 
 The simulations of higher bit DACs consume more time. 
 
