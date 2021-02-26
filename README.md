@@ -220,4 +220,4 @@ Further work would be to create the layout of all the DACs and use them obtain a
 
 Sameer S Durgoji , B.Tech (Electronics and Communication Engineering), National Institute of Technology Karnataka
 
-[sameerdurgoji@gmail.com](sameerdurgoji@gmail.com)
+sameerdurgoji@gmail.com
