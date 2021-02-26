@@ -1,5 +1,21 @@
 # 10Bit_potentiometric_DAC
 
+## Table of Contents ##
+
+- [1. Introduction](#introduction)
+- [2. Pre Layout Simulations](#pre-layout-simulations)
+  * [Switch](#switch)
+  * [2 bit DAC](#2-bit-dac)
+  * [3 bit DAC](#3-bit-dac)
+  * [4 bit DAC](#4-bit-dac)
+  * [5 bit DAC](#5-bit-dac)
+  * [6 bit DAC](#6-bit-dac)
+  * [7 bit DAC]()
+  * [8 bit DAC]()
+  * [9 bit DAC]()
+  * [10 bit DAC]()
+  
+
 # Introduction
 
 Most of the signals around us, in the world we live in are not digital in nature, rather they are analog. The digital systems can understand only digital signals, not analog. Hence, it becomes important to interface the digital systems we the external analog world. The analog input signals are to be converted to digital signals using Analog to Digital Converters at the input end of the digital system. After the processing by the system, the digital signals are to be converted back into analog signals using Digital to Analog Converters. 
