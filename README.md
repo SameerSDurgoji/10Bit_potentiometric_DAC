@@ -142,6 +142,20 @@ For the 10 bit DAC, the subcircuits 9bit_DAC.sub and switch.sub were used. The e
 
 The transient response of this schematic could not be obtained. The ngspice session got killed.
 
+# Steps to install the tools and execute the pre layout design
+
+1. Install the eSim tool using this website.
+2. Clone this repository using the commands:
+'''  $ sudo apt install -y git'''
+
+'''$ git clone https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC.git'''
+3. The subcircuits of lower DACs is present in the subcircuits folder. Copy its contents to the eSim subcircuit library (C:\FOSSEE\eSim\library\SubcircuitLibrary) in order to use the subcircuits in the schematic.
+4. The spice netlists with all the required subcircuits are present in DAC_Prelayout folder.  
+5. To run the schematic, run the command:
+'''$ ngspice <nbit_DAC1.cir.out>'''
+
+The simulations of higher bit DACs consume more time. 
+
 # Observations:
 
 It was observed that with increase in the resolution of DAC, the number of steps were increased, the stepsize reduced leading to a smoother step waveform.
