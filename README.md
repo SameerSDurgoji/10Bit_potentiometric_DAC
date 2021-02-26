@@ -17,6 +17,9 @@
 - [3. Observation](#observation)
 - [4. Steps to install the tools and execute the pre layout design](#steps-to-install-the-tools-and-execute-the-pre-layout-design) 
 - [5. Further Work](#further-work)
+- [6. Acknowledgements](#acknowledgements)
+- [7. Contact Information](#contact-information)
+
 # Introduction
 
 Most of the signals around us, in the world we live in are not digital in nature, rather they are analog. The digital systems can understand only digital signals, not analog. Hence, it becomes important to interface the digital systems we the external analog world. The analog input signals are to be converted to digital signals using Analog to Digital Converters at the input end of the digital system. After the processing by the system, the digital signals are to be converted back into analog signals using Digital to Analog Converters. 
@@ -187,11 +190,11 @@ The simulations of higher bit DACs consume more time.
 Further work would be to create the layout of all the DACs and use them obtain a 10 bit DAC using the sky130 tech file. 
 
 
-# Contact Information:
-
-Sameer S Durgoji , B.Tech Electronics and Communication Engineering, National Institute of Technology Karnataka, [sameerdurgoji@gmail.com](sameerdurgoji@gmail.com)
-
-# Acknowledgements:
+# Acknowledgements
 
  * Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
  * Praharsha Mahurkar, TA at VSD Corp. Pvt. Ltd.
+
+# Contact Information
+
+Sameer S Durgoji , B.Tech Electronics and Communication Engineering, National Institute of Technology Karnataka, [sameerdurgoji@gmail.com](sameerdurgoji@gmail.com)
