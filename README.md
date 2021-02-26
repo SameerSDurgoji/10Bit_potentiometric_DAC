@@ -148,9 +148,6 @@ The transient response of this schematic could not be obtained. The ngspice sess
 2. Clone this repository using the commands:
 '''
 $ sudo apt install -y git
-'''
-
-'''
 $ git clone https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC.git
 '''
 3. The subcircuits of lower DACs is present in the subcircuits folder. Copy its contents to the eSim subcircuit library (C:\FOSSEE\eSim\library\SubcircuitLibrary) in order to use the subcircuits in the schematic.
