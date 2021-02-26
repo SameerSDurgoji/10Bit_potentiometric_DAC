@@ -34,7 +34,7 @@ The switches are designed as shown in the figure below. The digital voltage of 1
 
 These designs are used for pre layout simulations.
 
-The general block diagram of the 10bit DAC is as shown below:
+The block diagram of the required 10bit DAC is as shown below:
 
 ![DAC design](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/DACdesign.png)
 
