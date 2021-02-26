@@ -17,8 +17,9 @@
 - [3. Observation](#observation)
 - [4. Steps to install the tools and execute the pre layout design](#steps-to-install-the-tools-and-execute-the-pre-layout-design) 
 - [5. Further Work](#further-work)
-- [6. Acknowledgements](#acknowledgements)
-- [7. Contact Information](#contact-information)
+- [6. Author](#author)
+- [7. Acknowledgements](#acknowledgements)
+- [8. Contact Information](#contact-information)
 
 # Introduction
 
@@ -206,6 +207,9 @@ The simulations of higher bit DACs consume more time.
 
 Further work would be to create the layout of all the DACs and use them obtain a 10 bit DAC using the sky130 tech file. 
 
+# Author
+
+* Sameer S Durgoji , B.Tech (Electronics and Communication Engineering), National Institute of Technology Karnataka
 
 # Acknowledgements
 
@@ -214,4 +218,6 @@ Further work would be to create the layout of all the DACs and use them obtain a
 
 # Contact Information
 
-Sameer S Durgoji , B.Tech Electronics and Communication Engineering, National Institute of Technology Karnataka, [sameerdurgoji@gmail.com](sameerdurgoji@gmail.com)
+Sameer S Durgoji , B.Tech (Electronics and Communication Engineering), National Institute of Technology Karnataka
+
+[sameerdurgoji@gmail.com](sameerdurgoji@gmail.com)
