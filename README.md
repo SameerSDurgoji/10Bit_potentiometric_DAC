@@ -194,7 +194,7 @@ $ sudo apt install -y git
 $ git clone https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC.git
 ```
 3. The subcircuits of lower DACs is present in the [subcircuits](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/tree/main/subcircuits) folder. Copy its contents to the eSim subcircuit library (C:\FOSSEE\eSim\library\SubcircuitLibrary) in order to use the subcircuits in the schematic.
-4. The sky130_fd_pr can be downloaded by following this [link](https://github.com/Deepak42074/vsdsram_sky130#installing-and-cloning-instructions). The sky130_fd_pr folder should be placed in the DAC_Prelayout folder.
+4. The entire sky130_fd_pr can be downloaded by following this [link](https://github.com/Deepak42074/vsdsram_sky130#installing-and-cloning-instructions). The sky130_fd_pr folder should be placed in the DAC_Prelayout folder. However, the required model files are already present in DAC_Prelayout folder.
 5. The custom1.spice file should be placed in the models folder in sky130_fd_pr. 
 6. The spice netlists with all the required subcircuits are present in DAC_Prelayout folder.  
 7. To run the schematic, open the respective DAC folder in DAC_Prelayout in terminal and run the command:
