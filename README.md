@@ -187,7 +187,7 @@ It was observed that with increase in the resolution of DAC, the number of steps
 
 # Steps to install the tools and execute the pre layout design
 
-1. Install the eSim tool using this [website](https://esim.fossee.in/downloads).
+1. Install the eSim tool using this [website](https://esim.fossee.in/downloads). Note: You can also refer to the eSim [Spoken Tutorial](https://spoken-tutorial.org/tutorial-search/?search_foss=eSim).
 2. Clone this repository using the commands:
 ```
 $ sudo apt install -y git
