@@ -59,8 +59,7 @@ The tools used for these simulations are:
 * eSim
 * ngspice
 
-The schematics for a switch circuit and a 2 bit DAC were designed in eSim. As the analog input voltage was 3.3V, the vdd and vref was set to 3.3V. For the voltage divider circuit, a series of 4 resistors of 250ohm each were used. The model name of the PMOSFET used was sky130_fd_pr__pfet_g5v0d10v5. The model name of the NMOSFET used was sky130_fd_pr__nfet_03v3_nvt. To include the model files of these mosfets, a new spice file was created where the sky130_fd_pr__nfet_03v3_nvt__mismatch.corner.spice, sky130_fd_pr__nfet_03v3_nvt__tt.corner.spice, sky130_fd_pr__pfet_g5v0d10v5__mismatch.corner.spice, sky130_fd_pr__pfet_g5v0d10v5__tt.corner.spice, all.spice files were included.
-This custom1.spice file should be placed in models folder in sky130_fd_pr.
+The schematics for a switch circuit and a 2 bit DAC were designed in eSim. As the analog input voltage was 3.3V, the vdd and vref was set to 3.3V. For the voltage divider circuit, a series of 4 resistors of 250ohm each were used. 
 
 ## Switch
 The switch circuit mentioned above was designed using eSim. The screenshots of the schematic are as shown below:
@@ -186,18 +185,25 @@ The transient response of this schematic could not be obtained. The ngspice sess
 It was observed that with increase in the resolution of DAC, the number of steps were increased, the stepsize reduced leading to a smoother step waveform.
 
 # Steps to install the tools and execute the pre layout design
-
+## Steps to install eSim
 1. Install the eSim tool using this [website](https://esim.fossee.in/downloads). Note: You can also refer to the eSim [Spoken Tutorial](https://spoken-tutorial.org/tutorial-search/?search_foss=eSim).
-2. Clone this repository using the commands:
+2.  The subcircuits of lower DACs is present in the [subcircuits](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/tree/main/subcircuits) folder. Copy its contents to the eSim subcircuit library (C:\FOSSEE\eSim\library\SubcircuitLibrary) in order to use the subcircuits in the schematic.
+
+## Executing the prelayout design simulations
+
+1. Clone this repository using the commands:
 ```
 $ sudo apt install -y git
 $ git clone https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC.git
 ```
-3. The subcircuits of lower DACs is present in the [subcircuits](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/tree/main/subcircuits) folder. Copy its contents to the eSim subcircuit library (C:\FOSSEE\eSim\library\SubcircuitLibrary) in order to use the subcircuits in the schematic.
-4. The entire sky130_fd_pr can be downloaded by following this [link](https://github.com/Deepak42074/vsdsram_sky130#installing-and-cloning-instructions). The sky130_fd_pr folder should be placed in the DAC_Prelayout folder. However, the required model files are already present in DAC_Prelayout folder.
-5. The custom1.spice file should be placed in the models folder in sky130_fd_pr. 
-6. The spice netlists with all the required subcircuits are present in DAC_Prelayout folder.  
-7. To run the schematic, open the respective DAC folder in DAC_Prelayout in terminal and run the command:
+
+Note: The entire sky130_fd_pr can be downloaded by following this [link](https://github.com/Deepak42074/vsdsram_sky130#installing-and-cloning-instructions). The sky130_fd_pr folder should be placed in the DAC_Prelayout folder. However, the required model files are already present in DAC_Prelayout folder.
+
+2. Open the 10Bit_potentiometric_DAC folder in the terminal.
+
+3. Got to the respective DAC folder by using the command ```$ cd nbit_DAC/```
+
+4. To run the schematic, run the command:
 ```
 $ ngspice <nbit_DAC1.cir.out>
 ```
