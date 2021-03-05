@@ -220,22 +220,26 @@ The layout of these circuits is to be drawn in magic using sky130 tech file.
 
 The layout for switch was drawn as shown below:
 
-
+![switch layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Switch.png)
 
 The spice file of this switch layout was extracted, necessary voltage inputs were added and was simulated in ngspice. For the sake of checking the layout, the high voltage reference was given as 2.5 V and the low reference voltage was given as 2.0 V. The output was observed as follows:
 
+![switch simulation](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Switch%20simulation.png)
 
 
 ## 2bit DAC
 
 The layout for 2bit DAC was drawn as shown below:
 
+![2bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/2bit_DAC.png)
 
 However, the layout for resisters in voltage divider could not be designed. So, direct voltage values were given for reference.
 
 The spice file was extracted and the output was observed as shown below:
 
+![2bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/2bit_DACsim.png)
 
+However, the output here is scaled down. This error is to be resolved.
 
 # Further Work
 
