@@ -239,7 +239,7 @@ The spice file was extracted and the output was observed as shown below:
 
 ![2bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/2bit_DACsim.png)
 
-However, the output here is scaled down. This error is to be resolved.
+However, the output here is scaled down. This error is to be resolved. This problem may be due to the sizing of the transistors.
 
 # Further Work
 
