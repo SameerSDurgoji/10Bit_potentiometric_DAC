@@ -18,10 +18,11 @@ This repository presents the design of a 10 Bit Potentiometric Digital to Analog
   * [10 bit DAC](#10-bit-dac)
 - [3. Observation](#observation)
 - [4. Steps to install the tools and execute the pre layout design](#steps-to-install-the-tools-and-execute-the-pre-layout-design) 
-- [5. Further Work](#further-work)
-- [6. Author](#author)
-- [7. Acknowledgements](#acknowledgements)
-- [8. Contact Information](#contact-information)
+- [5. Layout](#layout)
+- [6. Further Work](#further-work)
+- [7. Author](#author)
+- [8. Acknowledgements](#acknowledgements)
+- [9. Contact Information](#contact-information)
 
 # Introduction
 
@@ -247,7 +248,6 @@ Further work would be to create the layout for resistor, all the DACs and use th
 # Acknowledgements
 
  * Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
- * Praharsha Mahurkar, TA at VSD Corp. Pvt. Ltd.
 
 # Contact Information
 
