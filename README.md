@@ -210,11 +210,35 @@ $ ngspice <nbit_DAC1.cir.out>
 
 The simulations of higher bit DACs consume more time. 
 
+# Layout
+
+
+The layout of these circuits is to be drawn in magic using sky130 tech file. 
+
+## Switch
+
+The layout for switch was drawn as shown below:
+
+
+
+The spice file of this switch layout was extracted, necessary voltage inputs were added and was simulated in ngspice. For the sake of checking the layout, the high voltage reference was given as 2.5 V and the low reference voltage was given as 2.0 V. The output was observed as follows:
+
+
+
+## 2bit DAC
+
+The layout for 2bit DAC was drawn as shown below:
+
+
+However, the layout for resisters in voltage divider could not be designed. So, direct voltage values were given for reference.
+
+The spice file was extracted and the output was observed as shown below:
+
 
 
 # Further Work
 
-Further work would be to create the layout of all the DACs and use them obtain a 10 bit DAC using the sky130 tech file. 
+Further work would be to create the layout for resistor, all the DACs and use them obtain a 10 bit DAC using the sky130 tech file. 
 
 # Author
 
