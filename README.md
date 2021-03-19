@@ -220,90 +220,92 @@ The layout of these circuits is to be drawn in magic using sky130 tech file.
 
 The layout for resistor was drawn as shown below:
 
-![resistor]()
+![resistor](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/resistor.png)
+
+The resistance of this resistor was found to be 517.89 ohm.
 
 ## Switch
 
 The layout for switch was drawn as shown below:
 
-![switch layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Switch.png)
+![switch layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/switch.png)
 
 
 ## 2bit DAC
 
 The layout for 2bit DAC was drawn as shown below:
 
-![2bitDAC layout]()
+![2bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/2bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![2bitDAC sim]()
+![2bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/2bit_DACsim.png)
 
 ## 3bit DAC
 
 The layout for 3bit DAC was drawn as shown below:
 
-![3bitDAC layout]()
+![3bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/3bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![3bitDAC sim]()
+![3bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/3bit_DACsim.png)
 
 ## 4bit DAC
 
 The layout for 4bit DAC was drawn as shown below:
 
-![4bitDAC layout]()
+![4bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/4bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![4bitDAC sim]()
+![4bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/4bit_DACsim.png)
 
 ## 5bit DAC
 
 The layout for 5bit DAC was drawn as shown below:
 
-![5bitDAC layout]()
+![5bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/5bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![5bitDAC sim]()
+![5bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/5bit_DACsim.png)
 
 ## 6bit DAC
 
 The layout for 6bit DAC was drawn as shown below:
 
-![6bitDAC layout]()
+![6bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/6bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![6bitDAC sim]()
+![6bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/6bit_DACsim.png)
 
 ## 7bit DAC
 
 The layout for 7bit DAC was drawn as shown below:
 
-![7bitDAC layout]()
+![7bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/7bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![7bitDAC sim]()
+![7bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/7bit_DACsim.png)
 
 ## 8bit DAC
 
 The layout for 8bit DAC was drawn as shown below:
 
-![8bitDAC layout]()
+![8bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/8bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
-![8bitDAC sim]()
+![8bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/8bit_DACsim1.png)
 
 ## 9bit DAC
 
 The layout for 9bit DAC was drawn as shown below:
 
-![9bitDAC layout]()
+![9bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/9bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
@@ -313,7 +315,7 @@ The spice file was extracted and the output was observed as shown below:
 
 The layout for 10bit DAC was drawn as shown below:
 
-![10bitDAC layout]()
+![10bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/10bit_DAC.png)
 
 The spice file was extracted and the output was observed as shown below:
 
