@@ -299,7 +299,7 @@ The layout for 8bit DAC was drawn as shown below:
 
 The spice file was extracted and the output was observed as shown below:
 
-![8bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/8bit_DACsim1.png)
+![8bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/8bit_DACsim2.png)
 
 ## 9bit DAC
 
