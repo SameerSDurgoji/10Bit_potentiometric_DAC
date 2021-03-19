@@ -307,9 +307,7 @@ The layout for 9bit DAC was drawn as shown below:
 
 ![9bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/9bit_DAC.png)
 
-The spice file was extracted and the output was observed as shown below:
-
-![9bitDAC sim]()
+The output could not be obtained as the ngspice session got killed.
 
 ## 10bit DAC
 
@@ -317,14 +315,12 @@ The layout for 10bit DAC was drawn as shown below:
 
 ![10bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Layout%20screenshots/10bit_DAC.png)
 
-The spice file was extracted and the output was observed as shown below:
-
-![10bitDAC sim]()
+The output could not be obtained as the ngspice session got killed.
 
 
 # Further Work
 
-
+Further work would be to obtain the simulatios of 9 bit DAC and 10 bit DAC and prepare a proper documentation.
 
 # Author
 
