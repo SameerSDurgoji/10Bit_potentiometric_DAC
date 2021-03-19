@@ -216,34 +216,113 @@ The simulations of higher bit DACs consume more time.
 
 The layout of these circuits is to be drawn in magic using sky130 tech file. 
 
+## Resistor
+
+The layout for resistor was drawn as shown below:
+
+![resistor]()
+
 ## Switch
 
 The layout for switch was drawn as shown below:
 
 ![switch layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Switch.png)
 
-The spice file of this switch layout was extracted, necessary voltage inputs were added and was simulated in ngspice. For the sake of checking the layout, the high voltage reference was given as 2.5 V and the low reference voltage was given as 2.0 V. The output was observed as follows:
-
-![switch simulation](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/Switch%20simulation.png)
-
 
 ## 2bit DAC
 
 The layout for 2bit DAC was drawn as shown below:
 
-![2bitDAC layout](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/2bit_DAC.png)
-
-However, the layout for resisters in voltage divider could not be designed. So, direct voltage values were given for reference.
+![2bitDAC layout]()
 
 The spice file was extracted and the output was observed as shown below:
 
-![2bitDAC sim](https://github.com/SameerSDurgoji/10Bit_potentiometric_DAC/blob/main/Screenshots/2bit_DACsim.png)
+![2bitDAC sim]()
 
-However, the output here is scaled down. This error is to be resolved. This problem may be due to the sizing of the transistors.
+## 3bit DAC
+
+The layout for 3bit DAC was drawn as shown below:
+
+![3bitDAC layout]()
+
+The spice file was extracted and the output was observed as shown below:
+
+![3bitDAC sim]()
+
+## 4bit DAC
+
+The layout for 4bit DAC was drawn as shown below:
+
+![4bitDAC layout]()
+
+The spice file was extracted and the output was observed as shown below:
+
+![4bitDAC sim]()
+
+## 5bit DAC
+
+The layout for 5bit DAC was drawn as shown below:
+
+![5bitDAC layout]()
+
+The spice file was extracted and the output was observed as shown below:
+
+![5bitDAC sim]()
+
+## 6bit DAC
+
+The layout for 6bit DAC was drawn as shown below:
+
+![6bitDAC layout]()
+
+The spice file was extracted and the output was observed as shown below:
+
+![6bitDAC sim]()
+
+## 7bit DAC
+
+The layout for 7bit DAC was drawn as shown below:
+
+![7bitDAC layout]()
+
+The spice file was extracted and the output was observed as shown below:
+
+![7bitDAC sim]()
+
+## 8bit DAC
+
+The layout for 8bit DAC was drawn as shown below:
+
+![8bitDAC layout]()
+
+The spice file was extracted and the output was observed as shown below:
+
+![8bitDAC sim]()
+
+## 9bit DAC
+
+The layout for 9bit DAC was drawn as shown below:
+
+![9bitDAC layout]()
+
+The spice file was extracted and the output was observed as shown below:
+
+![9bitDAC sim]()
+
+## 10bit DAC
+
+The layout for 10bit DAC was drawn as shown below:
+
+![10bitDAC layout]()
+
+The spice file was extracted and the output was observed as shown below:
+
+![10bitDAC sim]()
+
 
 # Further Work
 
-Further work would be to create the layout for resistor, all the DACs and use them obtain a 10 bit DAC using the sky130 tech file. 
+
 
 # Author
 
